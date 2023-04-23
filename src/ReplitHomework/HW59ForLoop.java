@@ -29,8 +29,10 @@ Hey, it is year:
 public class HW59ForLoop {
     public static void main(String[] args) {
 
-        String[] year = {"2011", "2012", "2013","2014","2015","2016","2017","2018","2019"};
-
+        for(int i =2011;i<=2019;i++){
+            System.out.println("Hey,it is year:");
+            System.out.println(i);
+        }
 
     }
 }

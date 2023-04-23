@@ -51,13 +51,13 @@ public class HW60ForLoop {
 
     public static void main(String[] args) {
 
-        String newyear = "Happy New Year";
-        for (int i = 10; i >= 1; i++) {
-            System.out.println(i);
-            if (i>=1);{
-                System.out.println("Happy New Year");
-
+        String newyear = "Happy New Year!";
+        for (int i = 10; i >= 1; i--) {
+            System.out.println(i);{
+            if (i<=1){
+                System.out.println(newyear);
+            }
         }
-        }
+    }
     }
 }
