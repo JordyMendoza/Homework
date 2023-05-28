@@ -46,10 +46,8 @@ package ReplitHomework;
 public class HW61ForLoop {
     public static void main(String[] args) {
 
-        int num=3;
-        for (int i = 1; i < 10; i++) {
-            System.out.println(num*i=);
-
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(3+"*"+i+"="+i*3);
 
         }
     }
