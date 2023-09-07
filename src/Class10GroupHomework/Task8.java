@@ -6,9 +6,9 @@ public class Task8 {
     public static void main(String[] args) {
 
         int [][] numbers={
-                {21,5,3,9},
+                {21,5,58,9},
                 {4,7,1,2},
-                {10,8}
+                {10,8,200}
         };
 
         int maximum=0;
@@ -26,5 +26,7 @@ public class Task8 {
         } System.out.print("The maximum number is "+maximum);
         System.out.println();
         System.out.print("The minimum number is "+minimum);
+        System.out.println();
+        System.out.print("eric sucks "+maximum+" balls");
     }
 }

@@ -21,8 +21,7 @@ public class Task1 {
         low=temp[i];
     }
     System.out.println("The lowest temperature is "+low+"");
-}
 
-
+    }
 }
 

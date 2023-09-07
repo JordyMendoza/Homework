@@ -24,4 +24,16 @@ Java is awesome.
  */
 
 public class HW127StaticKeyword {
+
+    void m1() {
+        System.out.println("Programming is amazing.");
+    }
+    static void m2() {
+        System.out.println("Java is awesome.");
+    }
+    public static void main(String[] args) {
+        HW127StaticKeyword m = new HW127StaticKeyword();
+        m.m1();
+        m2();
+    }
 }
